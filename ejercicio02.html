@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--META NAME DESCRIPCION-->
+    <meta name="description" content="Ejercicio 01 - Open Bootcamp - HTML">
+    <!--LINK STYLES.CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Ejercicio 02 - HTML - Open Bootcamp</title>
+</head>
+<body>
+<header>
+    <h1>Ejercicio 02 - Open Bootcamp - HTML</h1>
+</header>
+
+<main>
+    <section>
+        <div class="first-part" style="background-color: green;">
+            <form id="form" action="#">
+                <h2>Formulario de contacto</h2>
+                <fieldset>
+                    <legend>Ingresar sus datos</legend>
+                    <div class="form__list">
+                        <ul>
+                            <li>Ingresar nombre</li>
+                                <li type="none"><input id="name" type="text" pattern="[A-Za-z]" name="name" required></li>
+                            <li>Ingresar apellido</li>
+                                <li type="none"><input id="last-name" type="text" pattern="[A-Za-z]" name="last-name" required></li>
+                            <li>Ingresar email</li>
+                                <li type="none"><input id="email" type="email"  required></li>
+                            <li>Ingresar teléfono</li>
+                                <li type="none"><input id="cellphone" type="tel" pattern="[0-9]" name="cellphone" required></li>
+                            <li>Ingresar dirección</li>
+                                <li type="none"><input id="adress" type="text" pattern="[A-Za-z0-9]" name="adress" required></li>
+                        </ul>
+                    </div>
+                        <button type="send" class="button">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="second-part">
+            <table border="2">
+                <caption>
+                    Tipos de animales vertebrados
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Columna1</th>
+                        <th>Columna2</th>
+                        <th>Columna3</th>
+                        <th>Columna4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Columna1 - Fila1</td>
+                        <td>Columna2 - Fila1</td>
+                        <td>Columna3 - Fila1</td>
+                        <td>Columna4 - Fila1</td>
+                    </tr>
+                    <tr>
+                        <td>Columna1 - Fila2</td>
+                        <td colspan="2">Columna2/3 - Fila2</td>
+                        <td rowspan="2">Columna4 - Fila2</td>
+                    </tr>
+                    <tr>
+                        <td>Columna1 - Fila3</td>
+                        <td>Columna2 - Fila3</td>
+                        <td>Columna3 - Fila3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+</main>
+
+    
+</body>
+</html>
